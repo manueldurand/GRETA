@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .index{
+            color: orange;
+            font-size: smaller;
+            font-style: italic;
+            background-color: black;
+            border-radius: 10px;
+            padding: 8px;
+            margin: 40px;
+        }
+        form{
+            padding: 5px;
+            margin: 40px;
+        }
+        
+    </style>
+    <title>Formulaire de contact</title>
+</head>
+<body>
+    <form action="fichier_contact.html" method="post">
+        <input type="text" name="nom" placeholder="Nom">
+        <input type="email" name="email" placeholder="adresse mail">
+        <br>
+        <br>
+        <textarea rows="5" cols="50"></textarea>
+        <br>
+        <input type="button" name="submit" value="Envoyer">
+    </form>
+    <a class="index" href="index.html">Accueil</a>
+</body>
+</html>
